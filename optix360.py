@@ -21,7 +21,7 @@ st.markdown("""
 
         /* Textos y encabezados */
         h1, h2, h3, h4, h5, h6, p, span, div {
-            color: #white !important;
+            color: #FFFFFF !important;
         }
 
         /* Subheaders y textos específicos */
