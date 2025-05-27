@@ -6,12 +6,42 @@ import yfinance as yf
 from datetime import datetime
 import scipy.optimize as sco
 
+import streamlit as st
+
+st.set_page_config(layout="wide")
+
+# Estilo personalizado: fondo azul serio y texto blanco
+st.markdown("""
+    <style>
+        body {
+            background-color: #0A2342;  /* Azul oscuro */
+            color: white;
+        }
+        .stApp {
+            background-color: #0A2342;
+            color: white;
+        }
+        .css-18ni7ap.e8zbici2,  /* Títulos y textos */
+        .css-1v0mbdj.edgvbvh3,
+        .css-1cpxqw2.edgvbvh3,
+        .st-cm, .st-cn {
+            color: white !important;
+        }
+        .st-bb {
+            background-color: #0A2342;
+        }
+        .css-qrbaxs.e16nr0p34 { /* Tabla */
+            background-color: white !important;
+            color: black !important;
+        }
+    </style>
 """, unsafe_allow_html=True)
 
 # Logo arriba a la derecha
 st.markdown("""
     <div style="display: flex; justify-content: flex-end;">
-        <img src="https://bing.com/th/id/BCO.2a47b876-385a-436c-abf8-49188d6245a1.png">
+        <img src="https://bing.com/th/id/BCO.2a47b876-385a-436c-abf8-49188d6245a1.png" 
+             alt="Logo ANA Seguros" width="200" style="margin-top: -60px; margin-right: 10px;">
     </div>
 """, unsafe_allow_html=True)
 
