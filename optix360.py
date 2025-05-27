@@ -30,7 +30,7 @@ st.markdown("""
         .css-1cpxqw2.edgvbvh3,
         .st-cm, .st-cn,
         .stMarkdown {
-            color: #90ee90 !important;
+            color: white !important;
         }
 
         /* Métricas */
