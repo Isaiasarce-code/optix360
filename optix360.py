@@ -28,7 +28,7 @@ st.markdown("""
             color: white !important;
         }
         .st-bb {
-            background-color: #0A2342;
+            background-color: #1E3A8A;
         }
         .css-qrbaxs.e16nr0p34 { /* Tabla */
             background-color: white !important;
