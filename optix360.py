@@ -10,7 +10,7 @@ import streamlit as st
 
 st.set_page_config(layout="wide")
 
-# Estilo personalizado: fondo negro y texto verde
+# Estilo personalizado: fondo negro y texto verde.
 st.markdown("""
     <style>
         body {
