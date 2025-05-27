@@ -39,7 +39,7 @@ st.markdown("""
         .stTextInput>div>div>input,
         .stDateInput>div>input,
         .stButton>button {
-            background-color: #111111;
+            background-color: white;
             color: #00FF00;
             border: 1px solid #00FF00;
         }
