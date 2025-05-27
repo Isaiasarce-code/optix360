@@ -14,7 +14,7 @@ st.set_page_config(layout="wide")
 st.markdown("""
     <style>
         body {
-            background-color: #3B82F6;  /* Azul oscuro */
+            background-color: #1E3A8A;  /* Azul oscuro */
             color: white;
         }
         .stApp {
