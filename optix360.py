@@ -39,13 +39,13 @@ st.markdown("""
         .stTextInput>div>div>input,
         .stDateInput>div>input,
         .stButton>button {
-            background-color: white;
+            background-color: #90ee90;
             color: #00FF00;
             border: 1px solid #00FF00;
         }
         .stButton>button:hover {
-            background-color: #00FF00;
-            color: #000000;
+            background-color: ##90ee90;
+            color: ##90ee90;
         }
     </style>
 """, unsafe_allow_html=True)
