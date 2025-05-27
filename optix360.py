@@ -74,6 +74,14 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+# Logo arriba a la derecha
+st.markdown("""
+    <div style="display: flex; justify-content: flex-end;">
+        <img src="https://bing.com/th/id/BCO.675b93d9-05c5-4513-af60-cdd6f1cccf55.png" 
+             alt="Logo ANA Seguros" width="200" style="margin-top: -60px; margin-right: 10px;">
+    </div>
+""", unsafe_allow_html=True)
+
 plt.style.use('fivethirtyeight')
 
 st.title("Análisis de Portafolio y Frontera Eficiente")
