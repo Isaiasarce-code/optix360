@@ -6,6 +6,15 @@ import yfinance as yf
 from datetime import datetime
 import scipy.optimize as sco
 
+""", unsafe_allow_html=True)
+
+# Logo arriba a la derecha
+st.markdown("""
+    <div style="display: flex; justify-content: flex-end;">
+        <img src="https://bing.com/th/id/BCO.2a47b876-385a-436c-abf8-49188d6245a1.png">
+    </div>
+""", unsafe_allow_html=True)
+
 plt.style.use('fivethirtyeight')
 
 st.title("Análisis de Portafolio y Frontera Eficiente")
