@@ -18,7 +18,7 @@ st.markdown("""
             color: white;
         }
         .stApp {
-            background-color: #E5E7EB;
+            background-color: #1E3A8A;
             color: white;
         }
         .css-18ni7ap.e8zbici2,  /* Títulos y textos */
