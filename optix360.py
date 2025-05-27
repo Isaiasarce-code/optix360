@@ -14,11 +14,11 @@ st.set_page_config(layout="wide")
 st.markdown("""
     <style>
         body {
-            background-color: #1E3A8A;  /* Azul oscuro */
+            background-color: #A7C7E7;  /* Azul oscuro */
             color: white;
         }
         .stApp {
-            background-color: #1E3A8A;
+            background-color: #A7C7E7;
             color: white;
         }
         .css-18ni7ap.e8zbici2,  /* Títulos y textos */
