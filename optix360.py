@@ -48,7 +48,7 @@ st.markdown("""
 plt.style.use('fivethirtyeight')
 
 st.title("Análisis de Portafolio y Frontera Eficiente")
-st.markdown("Esta app permite analizar un portafolio de activos usando la simulación de Monte Carlo.")
+#st.markdown("Esta app permite analizar un portafolio de activos usando la simulación de Monte Carlo.")
 
 # Entrada de TICKERS
 tickers_input = st.text_input("Introduce los tickers separados por comas (ej: AAPL, MSFT, GOOGL):")
