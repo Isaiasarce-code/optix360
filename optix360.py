@@ -8,54 +8,70 @@ import scipy.optimize as sco
 
 import streamlit as st
 
-st.set_page_config(layout="wide")
-
-# Estilo personalizado: fondo negro y texto verde.
 st.markdown("""
     <style>
         body {
             background-color: #000000;
-            color: #00FF00;
+            color: #90ee90;
         }
         .stApp {
             background-color: #000000;
-            color: #00FF00;
+            color: #90ee90;
         }
-        .css-18ni7ap.e8zbici2,  /* Títulos y textos */
+
+        /* Textos y encabezados */
+        h1, h2, h3, h4, h5, h6, p, span, div {
+            color: #90ee90 !important;
+        }
+
+        /* Subheaders y textos específicos */
+        .css-18ni7ap.e8zbici2,
         .css-1v0mbdj.edgvbvh3,
         .css-1cpxqw2.edgvbvh3,
-        .st-cm, .st-cn {
-            color: #00FF00 !important;
+        .st-cm, .st-cn,
+        .stMarkdown {
+            color: #90ee90 !important;
         }
-        .st-bb {
-            background-color: white;
-            color: #00FF00;
+
+        /* Métricas */
+        .stMetric {
+            color: #90ee90 !important;
         }
-        .css-qrbaxs.e16nr0p34 { /* Tabla */
+
+        /* Tablas */
+        .css-qrbaxs.e16nr0p34 {
             background-color: #111111 !important;
-            color: #00FF00 !important;
+            color: #90ee90 !important;
         }
-        /* Inputs y botones con estilo verde */
+
+        /* Cuadros de texto y entradas */
         .stTextInput>div>div>input,
         .stDateInput>div>input,
+        .stNumberInput>div>input,
+        .stSelectbox>div>div,
+        .stMultiSelect>div>div {
+            background-color: #111111 !important;
+            color: #90ee90 !important;
+            border: 1px solid #90ee90 !important;
+        }
+
+        /* Botones */
         .stButton>button {
-            background-color: #90ee90;
-            color: #00FF00;
-            border: 1px solid #00FF00;
+            background-color: #111111;
+            color: #90ee90;
+            border: 1px solid #90ee90;
         }
         .stButton>button:hover {
-            background-color: ##90ee90;
-            color: ##90ee90;
+            background-color: #90ee90;
+            color: #000000;
+        }
+
+        /* Éxito, advertencia, error */
+        .stAlert > div {
+            background-color: #111111 !important;
+            color: #90ee90 !important;
         }
     </style>
-""", unsafe_allow_html=True)
-
-# Logo arriba a la derecha
-st.markdown("""
-    <div style="display: flex; justify-content: flex-end;">
-        <img src="https://bing.com/th/id/BCO.675b93d9-05c5-4513-af60-cdd6f1cccf55.png" 
-             alt="Logo ANA Seguros" width="200" style="margin-top: -60px; margin-right: 10px;">
-    </div>
 """, unsafe_allow_html=True)
 
 plt.style.use('fivethirtyeight')
