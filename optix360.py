@@ -88,9 +88,7 @@ st.title("Análisis de Portafolio y Frontera Eficiente")
 #st.markdown("Esta app permite analizar un portafolio de activos usando la simulación de Monte Carlo.")
 
 # Entrada de TICKERS
-st.markdown("**Introduce los tickers separados por comas (ej: AAPL, MSFT, GOOGL):**")
-tickers_input = st.text_input(label="")
-# tickers_input = st.text_input("Introduce los tickers separados por comas (ej: AAPL, MSFT, GOOGL):")
+tickers_input = st.text_input("**Introduce los tickers separados por comas (ej: AAPL, MSFT, GOOGL):**")
 if tickers_input:
     activos = [t.strip().upper() for t in tickers_input.split(",")]
 
