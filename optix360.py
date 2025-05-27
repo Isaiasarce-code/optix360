@@ -10,29 +10,42 @@ import streamlit as st
 
 st.set_page_config(layout="wide")
 
-# Estilo personalizado: fondo azul serio y texto blanco
+# Estilo personalizado: fondo negro y texto verde
 st.markdown("""
     <style>
         body {
-            background-color: #A7C7E7;  /* Azul oscuro */
-            color: white;
+            background-color: #000000;
+            color: #00FF00;
         }
         .stApp {
-            background-color: #A7C7E7;
-            color: white;
+            background-color: #000000;
+            color: #00FF00;
         }
         .css-18ni7ap.e8zbici2,  /* Títulos y textos */
         .css-1v0mbdj.edgvbvh3,
         .css-1cpxqw2.edgvbvh3,
         .st-cm, .st-cn {
-            color: white !important;
+            color: #00FF00 !important;
         }
         .st-bb {
-            background-color: white;
+            background-color: #000000;
+            color: #00FF00;
         }
         .css-qrbaxs.e16nr0p34 { /* Tabla */
-            background-color: white !important;
-            color: black !important;
+            background-color: #111111 !important;
+            color: #00FF00 !important;
+        }
+        /* Inputs y botones con estilo verde */
+        .stTextInput>div>div>input,
+        .stDateInput>div>input,
+        .stButton>button {
+            background-color: #111111;
+            color: #00FF00;
+            border: 1px solid #00FF00;
+        }
+        .stButton>button:hover {
+            background-color: #00FF00;
+            color: #000000;
         }
     </style>
 """, unsafe_allow_html=True)
