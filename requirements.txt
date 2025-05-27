@@ -1,7 +1,7 @@
 streamlit
 pandas
 numpy
-matplotlib.pyplot
+matplotlib
 yfinance
 datetime
-scipy.optimize
+scipy
